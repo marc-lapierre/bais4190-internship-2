@@ -1,0 +1,16 @@
+# cat /var/db/dhcpd.leases                                                                                                   
+lease 10.250.250.101 {
+	starts 0 2023/03/05 22:06:16 UTC;
+	ends 1 2023/03/06 10:06:16 UTC;
+	hardware ethernet 00:50:56:2c:12:1a;
+	uid 01:00:50:56:2c:12:1a;
+	client-hostname "pc2";
+}
+
+lease 10.250.250.100 {
+	starts 0 2023/03/05 22:03:57 UTC;
+	ends 1 2023/03/06 10:03:57 UTC;
+	hardware ethernet 00:0c:29:bc:49:f2;
+	uid 01:00:0c:29:bc:49:f2;
+	client-hostname "pc1";
+}
